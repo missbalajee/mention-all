@@ -17,8 +17,8 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("ɪᴍ ᴍᴇɴᴛɪᴏɴᴀʟʟ ʙᴏᴛɪ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀʟᴍᴏᴤᴛ ᴀʟʟ ᴍᴇᴍʙᴇʀᴤ ɪɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ 
-ᴄʟɪᴄᴋ /help ᴈᴏʀ ᴍᴏʀᴇ ɪɴᴈᴏᴍᴀᴛɪᴏɴ"),
+  await event.reply ('ɪᴍ ᴍᴇɴᴛɪᴏɴᴀʟʟ ʙᴏᴛɪ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀʟᴍᴏᴤᴛ ᴀʟʟ ᴍᴇᴍʙᴇʀᴤ ɪɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ 
+ᴄʟɪᴄᴋ /help ᴈᴏʀ ᴍᴏʀᴇ ɪɴᴈᴏᴍᴀᴛɪᴏɴ')
                     buttons=(
                       [Button.url('CHANNEL', 'https://t.me/TEAM_LAD'),
                       Button.url('OWNER', 'https://t.me/cat_of_tg')]
