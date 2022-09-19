@@ -18,8 +18,8 @@ client = TelegramClient('client', api_id, api_hash).start(bot_token=bot_token)
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply ("ɪᴍ ᴍᴇɴᴛɪᴏɴᴀʟʟ ʙᴏᴛɪ ᴄᴀɴ ᴍᴇɴᴛɪᴏɴ ᴀʟᴍᴏᴤᴛ ᴀʟʟ ᴍᴇᴍʙᴇʀᴤ ɪɴ ɢʀᴏᴜᴘ ᴏʀ ᴄʜᴀɴɴᴇʟ ᴄʟɪᴄᴋ /help ᴈᴏʀ ᴍᴏʀᴇ ɪɴᴈᴏᴍᴀᴛɪᴏɴ")
-                      ([Button.url('CHANNEL', 'https://t.me/TEAM_LAD'),
-                      Button.url('OWNER', 'https://t.me/cat_of_tg')]
+                      ([Button.url('CHANNEL', 'https://t.me/Ourschennai'),
+                      Button.url('OWNER', 'https://t.me/Im_over_thinker')]
                     ),
                     link_preview=False
                    )
@@ -31,8 +31,8 @@ Eхαмple: /mentionall ɢood мorɴιɴɢ!
 Yoυ cαɴ yoυ тнιѕ coммαɴd αѕ α reply тo αɴy мeѕѕαɢe. вoт wιll тαɢ υѕerѕ тo тнαт replιed мeѕѕѕαɢe."
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('SUPPORT', 'https://t.me/teamladz_bothub'),
-                      Button.url('OWNER', 'https://t.me/CAT_OF_TG')]
+                      [Button.url('SUPPORT', 'https://t.me/Ourschennai'),
+                      Button.url('OWNER', 'https://t.me/Im_over_thinker')]
                     ),
                     link_preview=False
                    )
